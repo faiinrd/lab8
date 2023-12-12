@@ -27,16 +27,14 @@ int main(){
             character = "Chopper";
         }else if(height<180){
             character = "Usopp";
-        }else{
-            cout << "Enter your bounty: ";
-            cin >> bounty;
-            if(bounty>1100000000){
-                character = "Zoro";
-            }else{
-                character = "Sanji";
-            }
         }
-        
+        cout << "Enter your bounty: ";
+        cin >> bounty;
+        if(bounty>1100000000){
+            character = "Zoro";
+        }else{
+            character = "Sanji";
+        }
     }else if(age<=60){
         cout << "Enter your bounty: ";
         cin >> bounty;
